@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Moveo Notes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notes_list">Notes List</string>
+    <string name="map">Map</string>
+    <string name="add_note">Add note</string>
+    <string name="delete_note">Delete note</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="signup">Signup</string>
+    <string name="title">Title</string>
+    <string name="three_dots">...</string>
+    <string name="logout">Logout</string>
+    <string name="add_image">Add image</string>
+    <string name="back">Back</string>
+</resources>

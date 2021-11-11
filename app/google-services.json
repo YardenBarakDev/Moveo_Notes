@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "659085511784",
+    "project_id": "moveo-notes",
+    "storage_bucket": "moveo-notes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659085511784:android:2c23e889d8995190eabfdd",
+        "android_client_info": {
+          "package_name": "com.ybdev.moveonotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659085511784-1nk83qp378gq19rlpk4dnb239285l70s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXnu4mEPih33j5hodyJwqfaVc4ZuMOiv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659085511784-1nk83qp378gq19rlpk4dnb239285l70s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
