@@ -23,7 +23,7 @@ class NoteListFragment : Fragment(R.layout.fragment_note_list) {
     private lateinit var noteAdapter: NotesAdapter
     private val noteListViewModel = NoteListViewModel()
     private val user = Firebase.auth.currentUser
-
+    private var showedMessage = false
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentNoteListBinding.bind(view)
@@ -43,8 +43,10 @@ class NoteListFragment : Fragment(R.layout.fragment_note_list) {
         user?.let {
             noteListViewModel.getAllNotes(it.uid)?.observe(viewLifecycleOwner, { articles ->
                 noteAdapter.differ.submitList(articles)
-                if (articles.isEmpty())
+                if (articles.isEmpty() && !showedMessage){
                     showDialog()
+                    showedMessage = true
+                }
             })
         }
     }
